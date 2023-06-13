@@ -1,3 +1,5 @@
+package PatternProgram;
+
 public class Star_Pattern_6 {
     public static void main(String[] args){
         System.out.println("*-*-*-*-*-* STAR PATTERN *-*-*-*-*-*\n\n");
@@ -11,7 +13,7 @@ public class Star_Pattern_6 {
                     System.out.print("*");
                 }
             }else {
-                for (int j=0; j<; j++) {
+                for (int j=0; j<0; j++) {
                     System.out.print("*");
                 }
             }
