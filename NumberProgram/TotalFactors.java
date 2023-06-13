@@ -10,12 +10,13 @@ public class TotalFactors {
         int num = scan.nextInt();
         int count = 0;
 
+        System.out.print("Factors : ");
         for (int i=1; i<=num; i++){
             if (num%i==0){
-                System.out.println("Factor of "+num+" is "+i);
+                System.out.print(i+" ");
                 count++;
             }
         }
-        System.out.println("Total number of factors for given number "+num+" is "+count);
+        System.out.println("\nTotal number of factors for given number "+num+" is "+count);
     }
 }
