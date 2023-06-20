@@ -1,0 +1,13 @@
+1. Write program to check element exist or not within array list.
+   (If exist then it will return true and if not exist then it should return false.)
+2. Write a program to traverse (or iterate) HashMap/ArrayList and print it using Lambda Expression
+3. Write program to find second maximum from Array.
+4. Write program to find first repeated character from string.
+5. Write program to remove duplicate from arraylist.
+7. Write program to check 2 strings are anagrams or not.
+8. Write program to check if entered string is palindrome or not.
+9. Reverse the integer array & sort it in ascending order.
+10. Loop through each element of string and print count of vowels
+11. WAP to find max-min pair of an unsorted array.
+12. WAP to find most repeated word in text file.
+    (The filename will be provided in input and u will need to read the file using filename.)
