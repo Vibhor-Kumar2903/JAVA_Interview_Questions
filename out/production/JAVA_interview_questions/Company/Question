@@ -1,12 +1,12 @@
 1.
 2. Write a program to traverse (or iterate) HashMap/ArrayList and print it using Lambda Expression
 3.
-4. Write program to find first repeated character from string.
-5. Write program to remove duplicate from arraylist.
+4.
+5.
 7.
 8.
 9.
 10.
-11. WAP to find max-min pair of an unsorted array.
+11.
 12. WAP to find most repeated word in text file.
     (The filename will be provided in input and u will need to read the file using filename.)

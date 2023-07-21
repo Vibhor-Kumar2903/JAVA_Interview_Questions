@@ -16,24 +16,26 @@ public class MaxMinPairInArray {
             arr[i]=scan.nextInt();
         }
 
-        System.out.print("Given array elements are : ");
+        System.out.print("\nGiven array elements are : ");
         for(int element:arr){
             System.out.print(element+" ");
         }
 
-        int temp;
-
-        for (int i=0; i<arr.length; i++){
-            for (int j=i+1; j<arr.length; j++){
-                if(arr[i]>arr[j]){
-                    temp = arr[i];
-                    arr[i] = arr[j];
-                    arr[j] = temp;
-                }
+        int max = arr[0];
+        for (int i=1; i<arr.length; i++){
+            if (arr[i]>max){
+                max = arr[i];
             }
         }
 
+        int min = arr[0];
+        for (int i=1; i<arr.length; i++){
+            if (arr[i]<min){
+                min = arr[i];
+            }
+        }
 
-
+        System.out.println("\nMaximum in given array is : "+max);
+        System.out.println("Minimum in given array is : "+min);
     }
 }
